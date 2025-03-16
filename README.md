@@ -73,14 +73,7 @@ The AI Translator Web App is a speech-to-text and text-to-text translation tool 
 4. Click "Translate" to get the translated text.
 5. Click "Play Translation" to hear the translation.
 
-## Troubleshooting
-- **Speech recognition not working?** Ensure you are using Chrome and have granted microphone permissions.
-- **Translation failing?** Check API connectivity and backend logs on Railway.
-- **Frontend not loading?** Ensure Vercel deployment URL is correct and API_URL is set properly.
-
 ## Contributors
-- **[Your Name]** – Developer & Maintainer
+- **Abdul Hadi** – Developer & Maintainer
 
-## License
-This project is licensed under the MIT License.
 
