@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "https://ai-translator-production.up.railway.app:8000";
+const API_URL = "https://ai-translator-production.up.railway.app";
 const LANGUAGES = [
   { code: "en", name: "English" },
   { code: "es", name: "Spanish" },
