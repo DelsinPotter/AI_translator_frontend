@@ -46,6 +46,8 @@ export default function TranslatorApp() {
     }
     setLoading(false);
   };
+console.log("Translated Text:", translatedText);
+console.log("Audio File:", audioFile);
 
   const handleSpeak = () => {
     if (audioFile) {
