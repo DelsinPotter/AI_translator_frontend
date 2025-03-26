@@ -51,7 +51,7 @@ console.log("Audio File:", audioFile);
 
   const handleSpeak = () => {
     if (audioFile) {
-        const audioUrl = `${API_URL}/audio/${audioFile}`;
+        const audioUrl = `${API_URL}/audio/tmp/decrypted_${audioFile}`;
         console.log("Playing audio from:", audioUrl);
         const audio = new Audio(audioUrl);
         audio.play().catch(error => console.error("Error playing audio:", error));
