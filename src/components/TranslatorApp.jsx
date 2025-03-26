@@ -46,13 +46,10 @@ export default function TranslatorApp() {
     }
     setLoading(false);
   };
-console.log("Translated Text:", translatedText);
-console.log("Audio File:", audioFile);
 
   const handleSpeak = () => {
     if (audioFile) {
         const audioUrl = `${API_URL}/audio/${audioFile}`;
-        console.log("Playing audio from:", audioUrl);
         const audio = new Audio(audioUrl);
         audio.play().catch(error => console.error("Error playing audio:", error));
     } else {
